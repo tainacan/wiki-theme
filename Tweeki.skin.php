@@ -1137,7 +1137,7 @@ class TweekiTemplate extends BaseTemplate {
 			$skin->msg('search');
 			echo '" name="search" value="' . htmlspecialchars($this->data['search']) .'">
 						<div class="input-group-btn">
-							<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+							<button class="btn btn-search-input" type="submit"><i class="glyphicon glyphicon-search"></i></button>
 						</div>
 					</div>
 					' . $skin->makeSearchButton( 'go', array( 'id' => 'mw-searchButton', 'class' => 'searchButton btn hidden' ) ) . '
