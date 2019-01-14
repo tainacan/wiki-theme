@@ -67,10 +67,50 @@ span.subpages {
 	display: block;
 }
 
+/* TAINACAN SPECIFIC STYLES --------------------------*/
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	color: #01295c;
+	font-weight: 600;
+}
+h1 { font-size: 32px; }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
 /* Navbar */
 .navbar {
 	box-shadow: none;
 	background-image: none;
 	background-color: white;
 	border-bottom: 1px solid #cbcbcb;
+}
+
+/* Input */
+input {
+	border-radius: 0;
+	box-shadow: none;
+}
+input:focus {
+	box-shadow: none;
+	border-color: #555758;
+}
+
+/* Buttons */
+.btn {
+	text-shadow: none;
+	box-shadow: none;
+	border-radius: 6px;
+}
+.btn-primary {
+	background-image: none;
+	background-color: #298596;
+	border: none;
+}
+.btn-secondary {
+	background-image: none;
+	background-color: #298596;
+	border: none;
 }
