@@ -36,7 +36,7 @@
 }
 
 .firstHeading {
-	margin-bottom: .1em;
+	margin-bottom: 3rem;
 	/* These two rules hack around bug 2013 (fix for more limited bug 11325).
 	 * When bug 2013 is fixed properly, they should be removed. */
 	line-height: 1.2em;
@@ -91,13 +91,11 @@ h6 { font-size: 12px; }
 /* Input */
 input,
 input.form-control {
-	border-radius: 0;
 	box-shadow: none;
 }
 input:focus,
 input.form-control:focus {
 	box-shadow: none;
-	border-color: #555758;
 }
 
 /* Buttons */
@@ -111,13 +109,9 @@ input.form-control:focus {
 .btn-primary:hover,
 .btn-primary:focus {
 	background-image: none;
-	background-color: #298596;
 	border: none;
 }
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-	background-image: none;
-	background-color: #01295c;
-	border: none;
+
+.page-header {
+	border-bottom: none;
 }

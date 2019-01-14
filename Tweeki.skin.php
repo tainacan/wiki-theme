@@ -1130,11 +1130,16 @@ class TweekiTemplate extends BaseTemplate {
 		$this->text( 'wgScript' );
 		echo '" id="searchform">
 				<div class="form-group">
-					<input id="searchInput" class="search-query form-control" type="search" accesskey="f" title="';
-		$skin->text('searchtitle');
-		echo '" placeholder="';
-		$skin->msg('search');
-		echo '" name="search" value="' . htmlspecialchars($this->data['search']) .'">
+					<div class="input-group">
+						<input id="searchInput" class="search-query form-control" type="search" accesskey="f" title="';
+			$skin->text('searchtitle');
+			echo '" placeholder="';
+			$skin->msg('search');
+			echo '" name="search" value="' . htmlspecialchars($this->data['search']) .'">
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+						</div>
+					</div>
 					' . $skin->makeSearchButton( 'go', array( 'id' => 'mw-searchButton', 'class' => 'searchButton btn hidden' ) ) . '
 				</div>
 			</form>';
