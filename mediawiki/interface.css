@@ -122,7 +122,7 @@ input.form-control:focus {
 	border-radius: 0;
 	border-left: none;
 }
-#searchInput:focus+.btn-search-input {
+#searchInput:focus+.input-group-btn>.btn-search-input {
 	border: 1px solid #555758;
 	border-left: none;
 	color: #01295c;
