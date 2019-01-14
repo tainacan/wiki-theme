@@ -89,11 +89,13 @@ h6 { font-size: 12px; }
 }
 
 /* Input */
-input {
+input,
+input.form-control {
 	border-radius: 0;
 	box-shadow: none;
 }
-input:focus {
+input:focus,
+input.form-control:focus {
 	box-shadow: none;
 	border-color: #555758;
 }
@@ -103,14 +105,19 @@ input:focus {
 	text-shadow: none;
 	box-shadow: none;
 	border-radius: 6px;
+	cursor: pointer;
 }
-.btn-primary {
+.btn-primary, 
+.btn-primary:hover,
+.btn-primary:focus {
 	background-image: none;
 	background-color: #298596;
 	border: none;
 }
-.btn-secondary {
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
 	background-image: none;
-	background-color: #298596;
+	background-color: #01295c;
 	border: none;
 }
