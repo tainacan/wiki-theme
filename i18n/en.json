@@ -14,7 +14,7 @@
 	"tweeki-subnav-wrapper": "li",
 	"tweeki-subnav-wrapperclass": "nav btn-group",
 	"tweeki-subnav-dropdownclass": "dropdown-menu-right",
-	"tweeki-sidebar-left": "LEFTMENU",
+	"tweeki-sidebar-left": "SIDEBAR",
 	"tweeki-sidebar-left-btnclass": "btn btn-primary btn-block",
 	"tweeki-sidebar-left-wrapperclass": "btn-group btn-block",
 	"tweeki-sidebar-right": "EDIT-EXT,TOC",
