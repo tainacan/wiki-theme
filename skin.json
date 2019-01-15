@@ -157,7 +157,8 @@
 			"SEARCH": "self::renderSearch",
 			"LOGO": "self::renderLogo",
 			"LOGIN-EXT": "self::renderLoginExt",
-			"FOOTER": "self::renderStandardFooter"
+			"FOOTER": "self::renderStandardFooter",
+			"LEFTMENU": "self::renderLeftMenu"
 		},
 		"TweekiSkinStyles": [
 			"skins.tweeki.bootstrap.styles",

@@ -1177,6 +1177,27 @@ class TweekiTemplate extends BaseTemplate {
 
 
 	/**
+	 * Render left menu
+	 */
+	public function renderLeftMenu() {
+		$brandmsg = wfMessage( 'tweeki-navbar-brand' );
+		if( !$brandmsg->isDisabled() ) {
+			$brand = $brandmsg->text();
+			/* is it a file? */
+			$brandimageTitle = Title::newFromText( $brand );
+			if ( ! is_null( $brandimageTitle ) && $brandimageTitle->exists() ) {
+				$brandimageWikiPage = WikiPage::factory( $brandimageTitle );
+				if ( method_exists( $brandimageWikiPage, 'getFile' ) ) {
+					$brandimage = $brandimageWikiPage->getFile()->getFullUrl();
+					$brand = '<img src="' . $brandimage . '" alt="' . $this->data['sitename'] . '" />';
+				}
+			}
+			echo '<a href="' . htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) . '" class="navbar-brand">' . $brand . '</a>';
+		}
+	}
+
+
+	/**
 	 * Render standard MediaWiki footer
 	 */
 		private function renderStandardFooter( $options ) {
