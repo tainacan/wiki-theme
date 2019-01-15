@@ -7,7 +7,7 @@
 	"tweeki-navbar-right": "TOOLBOX,PERSONAL,SEARCH,LANGUAGES",
 	"tweeki-navbar-right-wrapper": "li",
 	"tweeki-navbar-right-wrapperclass": "nav",
-	"tweeki-navbar-brand": "File:logo_wiki.png",
+	"tweeki-navbar-brand": "LOGO",
 	"tweeki-navbar-class": "navbar navbar-default navbar-fixed-top",
 	"tweeki-subnav": "",
 	"tweeki-subnav-class": "navigation nav nav-pills pull-right",
