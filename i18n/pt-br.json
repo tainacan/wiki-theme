@@ -1,6 +1,6 @@
 {
 	"skinname-tweeki": "Tweeki",
-	"tweeki-desc": "Tweeki is built on top of Strapping which is built on top of a modified Vector theme from MediaWiki and utilizes Twitter's Bootstrap for base layout, typography, and additional widgets.",
+	"tweeki-desc": "Tweeki é construido em Strapping, que foi feito a partir de um tema Vector modificado para MediaWiki e usa o Bootstrap do Twitter como base para layout, tipografia e componentes extras.",
 	"tweeki-navbar-left": "",
 	"tweeki-navbar-left-wrapper": "li",
 	"tweeki-navbar-left-wrapperclass": "nav",
@@ -29,14 +29,14 @@
 	"tweeki-footer-standard-wrapper": "li",
 	"tweeki-footer-standard-wrapperclass": "dropup",
 	"tweeki-toolbox": "<span class='glyphicon glyphicon-cog'></span>",
-	"tweeki-login": "Login / Create Account",
+	"tweeki-login": "Entrar / Criar conta",
 	"tweeki-edit-ext": "Edit $1",
-	"tweeki-container-class": "container-fluid",
+	"tweeki-container-class": "container",
 	"tweeki-editsection-text": "",
 	"tweeki-editsection-class": "tw-editsection-onhover",
 	"tweeki-editsection-icon": "<span class='glyphicon glyphicon-pencil'></span>",
-	"tweeki-toc-top": "to top",
-	"prefs-tweeki-advanced": "Advanced features",
-	"prefs-tweeki-advanced-desc": "Show advanced features",
-	"prefs-tweeki-advanced-help": "Some features that you might know from other MediaWiki installations have possibly been hidden by the administrator in order not to confuse the average user. Set this option to show them."
+	"tweeki-toc-top": "para o topo",
+	"prefs-tweeki-advanced": "Recursos Avançados",
+	"prefs-tweeki-advanced-desc": "Mostrar recursos avançados",
+	"prefs-tweeki-advanced-help": "Alguns recursos que você pode conhecer de outras instalações MediaWiki possivelmente foram escondidos pelo administrador para não confundir usuários comuns. Ative esta opção para mostrá-los."
 }
