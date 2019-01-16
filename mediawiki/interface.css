@@ -192,6 +192,6 @@ input.form-control:focus {
 	color: #284472;
 }
 #sidebar-left .dropdown-menu > li > a:hover {
-	background-color: transparent;
+	background: none !important;
 	text-decoration: underline;
 }
