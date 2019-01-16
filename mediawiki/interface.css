@@ -175,8 +175,13 @@ input.form-control:focus {
 	color: #01295c;
 }
 #sidebar-left .dropdown-menu {
+	position: initial;
+	display: block;
+	border: none;
+	box-shadow: none;
+}
+#sidebar-left .dropdown-menu > li >a {
 	font-size: 14px;
 	font-weight: normal;
 	color: #284472;
-	position: initial !important;
 }
