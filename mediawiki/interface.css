@@ -132,6 +132,9 @@ input.form-control:focus {
 	border-left: none;
 	color: #01295c;
 }
+#searchInput {
+	color: #555758;
+}
 
 /* Table of Contents */
 #tweekiTOC .toctitle h2{
@@ -194,4 +197,18 @@ input.form-control:focus {
 #sidebar-left .dropdown-menu > li > a:hover {
 	background: none !important;
 	text-decoration: underline;
+}
+
+/* Default wiki buttons and inputs */
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button{
+	color: #fff;
+	background-color: #298596;
+	border-color: #298596;
+	font-weight: normal;
+	border-radius: 6px;
+}
+.oo-ui-textInputWidget.oo-ui-widget-enabled input:focus, .oo-ui-textInputWidget.oo-ui-widget-enabled textarea:focus {
+    outline: 0;
+    border-color: #555758;
+    box-shadow: none;
 }
