@@ -132,3 +132,28 @@ input.form-control:focus {
 	border-left: none;
 	color: #01295c;
 }
+
+/* Table of Contents */
+#toc.toc .toctitle {
+	color: #298596;
+	font-size: 16px;
+	font-weight: 600;
+}
+#toc.toc li.toclevel-1 > a {
+	color: #298596;
+	font-size: 16px;
+	font-weight: 600;
+}
+#toc.toc li.toclevel-1 > a:hover {
+	color: #298596;
+	cursor: pointer;
+}
+#toc.toc li.toclevel-2 > a {
+	color: #4ea2ad;
+	font-size: 14px;
+	font-weight: normal;
+}
+#toc.toc li.toclevel-2 > a:hover {
+	color: #4ea2ad;
+	cursor: pointer;
+}
