@@ -71,7 +71,7 @@ table.small {
 .mw-content-ltr ol {
 	padding: 0;
 	counter-reset: li-counter;
-	margin: 2em 0 1em 4em !;
+	margin: 2em 0 1em 4em;
 	list-style-type: none;
 }
 .mw-content-ltr ol>li {
@@ -137,4 +137,13 @@ table.small {
 	counter-increment: li-counter;
 	font-weight: 600;
 	padding-right: 0.75rem;
+}
+.mw-content-ltr ol>li>ol>li:before,
+.mw-content-ltr ul>li>ol>li:before {
+	content: counter(li-counter, lower-alpha);
+}
+.mw-content-ltr ol>li>ol>li>ol>li:before,
+.mw-content-ltr ul>li>ul>li>ol>li:before,
+.mw-content-ltr ol>li>ul>li>ol>li:before {
+	content: counter(li-counter, lower-roman);
 }
