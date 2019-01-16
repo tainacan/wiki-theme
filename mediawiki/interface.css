@@ -174,14 +174,24 @@ input.form-control:focus {
 	font-weight: 600;
 	color: #01295c;
 }
+#sidebar-left .dropdown-toggle:hover {
+	text-decoration: none;
+}
+#sidebar-left .dropdown-toggle .caret {
+	display: none;
+}
 #sidebar-left .dropdown-menu {
 	position: initial;
 	display: block;
 	border: none;
 	box-shadow: none;
 }
-#sidebar-left .dropdown-menu > li >a {
+#sidebar-left .dropdown-menu > li > a {
 	font-size: 14px;
 	font-weight: normal;
 	color: #284472;
+}
+#sidebar-left .dropdown-menu > li > a:hover {
+	background-color: transparent;
+	text-decoration: underline;
 }
