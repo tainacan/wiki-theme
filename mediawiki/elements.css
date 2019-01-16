@@ -112,7 +112,7 @@ table.small {
 .mw-content-rtl .mw-content-ltr ol li ol li ol li ul li:before,
 .mw-content-ltr ol li ul li ol li ul li:before, 
 .mw-content-rtl .mw-content-ltr ol li ul li ol li ul li:before {
-	content: '\23cd';
+	content: '\1f786';
 	padding-right: 0.75rem;
 	color: #298596;
 }
