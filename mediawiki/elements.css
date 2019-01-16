@@ -69,49 +69,49 @@ table.small {
 	margin: .5em 0 .6em 2.1em;
 	list-style: none;
 }
-.mw-content-ltr ul>li, 
-.mw-content-rtl .mw-content-ltr ul>li {
+.mw-content-ltr ul>li:before, 
+.mw-content-rtl .mw-content-ltr ul>li:before {
 	content: '\25a0';
 	padding-right: 0.75rem;
 	color: #01295c;
 }
-.mw-content-ltr ul>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ul>li>ul>li,
-.mw-content-ltr ol>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ol>li>ul>li {
+.mw-content-ltr ul>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ul>li>ul>li:before,
+.mw-content-ltr ol>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ol>li>ul>li:before {
 	content: '\25a1';
 	padding-right: 0.75rem;
 	color: #01295c;
 }
-.mw-content-ltr ul>li>ul>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ul>li>ul>li>ul>li,
-.mw-content-ltr ul>li>ol>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ul>li>ol>li>ul>li,
-.mw-content-ltr ol>li>ol>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ol>li>ol>li>ul>li,
-.mw-content-ltr ol>li>ul>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ol>li>ul>li>ul>li {
+.mw-content-ltr ul>li>ul>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ul>li>ul>li>ul>li:before,
+.mw-content-ltr ul>li>ol>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ul>li>ol>li>ul>li:before,
+.mw-content-ltr ol>li>ol>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ol>li>ol>li>ul>li:before,
+.mw-content-ltr ol>li>ul>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ol>li>ul>li>ul>li:before {
 	content: '\23fa';
 	padding-right: 0.75rem;
 	color: #298596;
 }
-.mw-content-ltr ul>li>ul>li>ul>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ul>li>ul>li>ul>li>ul>li,
-.mw-content-ltr ul>li>ol>li>ul>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ul>li>ol>li>ul>li>ul>li,
-.mw-content-ltr ol>li>ol>li>ul>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ol>li>ol>li>ul>li>ul>li,
-.mw-content-ltr ol>li>ul>li>ul>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ol>li>ul>li>ul>li>ul>li,
+.mw-content-ltr ul>li>ul>li>ul>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ul>li>ul>li>ul>li>ul>li:before,
+.mw-content-ltr ul>li>ol>li>ul>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ul>li>ol>li>ul>li>ul>li:before,
+.mw-content-ltr ol>li>ol>li>ul>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ol>li>ol>li>ul>li>ul>li:before,
+.mw-content-ltr ol>li>ul>li>ul>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ol>li>ul>li>ul>li>ul>li:before,
 
-.mw-content-ltr ul>li>ul>li>ol>li>ul>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ul>li>ul>li>ol>li>ul>li,
-.mw-content-ltr ul>li>ol>li>ol>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ul>li>ol>li>ol>li>ul>li,
-.mw-content-ltr ol>li>ol>li>ol>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ol>li>ol>li>ol>li>ul>li,
-.mw-content-ltr ol>li>ul>li>ol>li>ul>li, 
-.mw-content-rtl .mw-content-ltr ol>li>ul>li>ol>li>ul>li {
+.mw-content-ltr ul>li>ul>li>ol>li>ul>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ul>li>ul>li>ol>li>ul>li:before,
+.mw-content-ltr ul>li>ol>li>ol>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ul>li>ol>li>ol>li>ul>li:before,
+.mw-content-ltr ol>li>ol>li>ol>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ol>li>ol>li>ol>li>ul>li:before,
+.mw-content-ltr ol>li>ul>li>ol>li>ul>li:before, 
+.mw-content-rtl .mw-content-ltr ol>li>ul>li>ol>li>ul>li:before {
 	content: '\23cd';
 	padding-right: 0.75rem;
 	color: #298596;
