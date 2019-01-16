@@ -30,16 +30,16 @@ pre, code, tt, kbd, samp, .mw-code {
 
 code {
 	color: black;
-	background-color: #f9f9f9;
-	border: 1px solid #ddd;
+	background-color: #f2f2f2;
+	border: 1px solid #dbdbdb;
 	border-radius: 2px;
 	padding: 1px 4px;
 }
 
 pre, .mw-code {
 	color: black;
-	background-color: #f9f9f9;
-	border: 1px solid #ddd;
+	background-color: #f2f2f2;
+	border: 1px solid #dbdbdb;
 	padding: 1em;
 }
 
@@ -61,4 +61,66 @@ pre, .mw-code {
 
 table.small {
 	font-size: 100%;
+}
+
+/* OL LI special style */
+li:before {
+	color: #298596;
+	font-weight: 600;
+}
+ol {
+	padding: 0;
+	counter-reset: li-counter;
+	margin: 2em 0 1em 4em;
+	list-style-type: none;
+}
+ol>li {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 1.5em;
+    min-height: 3em;
+}
+ol>li::before {
+    position: absolute;
+    top: -4px;
+    left: -1.33em;
+    width: 2.8rem;
+    height: 2.8rem;
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+    text-align: center;
+	color: #f5f5f5;
+	border-radius: 50%;
+	background-color: #4ea2ad;
+	content: counter(li-counter);
+	counter-increment: li-counter;
+	font-weight: 600;
+}
+/* Second Level */
+ol>li>ol {
+	padding: 0;
+	margin: 0.3em 0 0 3.2em;
+	list-style-type: lower-roman;
+}
+ol>li>ol>li {
+    position: initial;
+    margin-bottom: initial;
+    padding-left: initial;
+    min-height: initial;
+}
+ol>li>ol>li::before {
+    position: initial;
+    top: initial;
+    left: initial;
+    width: initial;
+    height: initial;
+    font-size: initial;
+    line-height: initial;
+    text-align: initial;
+	color: #298596;
+	border-radius: initial;
+	background-color: initial;
+	content: initial;
+	counter-increment: initial;
+	font-weight: 600;
 }
