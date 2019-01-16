@@ -4,7 +4,7 @@
 	"tweeki-navbar-left": "",
 	"tweeki-navbar-left-wrapper": "li",
 	"tweeki-navbar-left-wrapperclass": "nav",
-	"tweeki-navbar-right": "TOOLBOX,PERSONAL,SEARCH,LANGUAGES",
+	"tweeki-navbar-right": "TOOLBOX,PERSONAL,SEARCH,LOGIN,LANGUAGES",
 	"tweeki-navbar-right-wrapper": "li",
 	"tweeki-navbar-right-wrapperclass": "nav",
 	"tweeki-navbar-brand": "File:Logo_wiki.png",
