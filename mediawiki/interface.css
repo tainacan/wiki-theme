@@ -141,6 +141,7 @@ input.form-control:focus {
 }
 #tweekiTOC #toc .nav > li.toclevel-1 > a {
 	color: #298596;
+	background: transparent;
 	font-size: 16px;
 	font-weight: 600;
 }
@@ -150,10 +151,14 @@ input.form-control:focus {
 }
 #tweekiTOC #toc .nav > li.toclevel-2 > a {
 	color: #4ea2ad;
+	background: transparent;
 	font-size: 14px;
 	font-weight: normal;
 }
 #tweekiTOC #toc .nav > li.toclevel-2 > a:hover {
 	color: #4ea2ad;
 	cursor: pointer;
+}
+#tweekiTOC #toc li.active > a {
+    border-left: 2px solid #298596;
 }
