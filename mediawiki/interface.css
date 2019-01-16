@@ -160,5 +160,23 @@ input.form-control:focus {
 	cursor: pointer;
 }
 #tweekiTOC #toc li.active > a {
-    border-left: 2px solid #298596;
+    border-left: 2px solid #298596 !important;
+}
+
+/* Edit Button */
+#ca-edit.btn .glyphicon {
+	left: -5px;
+}
+
+/* Sidebar left */
+#sidebar-left .dropdown-toggle {
+	font-size: 16px;
+	font-weight: 600;
+	color: #01295c;
+}
+#sidebar-left .dropdown-menu {
+	font-size: 14px;
+	font-weight: normal;
+	color: #284472;
+	position: initial !important;
 }
