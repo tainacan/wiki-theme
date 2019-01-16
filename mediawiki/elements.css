@@ -80,7 +80,7 @@ ol>li {
     padding-left: 1.5em;
     min-height: 3em;
 }
-ol>li::before {
+ol>li:before {
     position: absolute;
     top: -4px;
     left: -1.33em;
