@@ -170,7 +170,7 @@ table.small {
 	margin: 0.75em 0 0.6em 2em;
 	list-style-type: none;
 }
-.mw-content-ltr ol>li>ol>li
+.mw-content-ltr ol>li>ol>li,
 .mw-content-ltr ul>li>ol>li,
 .mw-content-ltr ol>li>ol>li>ol>li,
 .mw-content-ltr ul>li>ul>li>ol>li,
