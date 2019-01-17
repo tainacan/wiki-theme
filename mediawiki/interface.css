@@ -182,6 +182,9 @@ input.form-control:focus {
 }
 
 /* Sidebar left */
+.sidebar-left-wrapper {
+	position: absolute;
+}
 #sidebar-left .dropdown-toggle {
 	font-size: 16px;
 	font-weight: 600;
