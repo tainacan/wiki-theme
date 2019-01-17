@@ -191,8 +191,8 @@ input.form-control:focus {
 }
 #sidebar-left .btn.btn-primary.btn-block{
 	background: none;
-	text-align: none;
-	cursor: nor;
+	text-align: left;
+	cursor: default;
 }
 #sidebar-left .dropdown-toggle {
 	font-size: 16px;
