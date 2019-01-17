@@ -241,3 +241,18 @@ input.form-control:focus {
 .suggestions-special {
 	padding: 0.3em 1em;
 }
+
+/* Tables */
+table.wikitable {
+	background: white;
+	color: #454647;
+	margin: 2em auto;
+	border: none;
+	border-collapse: collapse;
+}
+table.wikitable > * > tr > td {
+	border: none;
+    padding: 0.8em 1em;
+	border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+}
