@@ -43,6 +43,15 @@ pre, .mw-code {
 	padding: 1em;
 }
 
+blockquote {
+	padding: 14px 30px;
+	margin: 0 0 20px;
+	font-size: 14px;
+	border: none;
+	background: #e6f6f8;
+	color: #454647;
+}
+
 /* Emulate Center */
 .center {
 	width: 100%;

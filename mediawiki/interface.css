@@ -138,27 +138,28 @@ input.form-control:focus {
 
 /* Table of Contents */
 #tweekiTOC .toctitle h2{
-	color: #01295c;
+	color: #454647;
 	font-size: 16px;
 	font-weight: 600;
+	text-transform: capitalize;
 }
 #tweekiTOC #toc .nav > li.toclevel-1 > a {
-	color: #284472;
+	color: #01295c;
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 500;
 }
 #tweekiTOC #toc .nav > li.toclevel-1 > a:hover {
-	color: #284472;
+	color: #01295c;
 	background-color: transparent;
 	cursor: pointer;
 }
 #tweekiTOC #toc .nav > li.toclevel-2 > a {
-	color: #44638e;
+	color: #284472;
 	font-size: 14px;
 	font-weight: normal;
 }
 #tweekiTOC #toc .nav > li.toclevel-2 > a:hover {
-	color: #44638e;
+	color: #284472;
 	background-color: transparent;
 	cursor: pointer;
 }
