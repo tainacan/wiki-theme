@@ -189,11 +189,6 @@ input.form-control:focus {
 @media screen and (max-width: 992px) {
 	.sidebar-left-wrapper { position: initial; }
 }
-#sidebar-left .btn.btn-primary.btn-block{
-	background: none;
-	text-align: left;
-	cursor: default;
-}
 #sidebar-left .dropdown-toggle {
 	font-size: 16px;
 	font-weight: 600;
@@ -201,9 +196,10 @@ input.form-control:focus {
 }
 #sidebar-left .dropdown-toggle:hover {
 	text-decoration: none;
+	cursor: default;
 }
 #sidebar-left .dropdown-toggle .caret {
-	display: default;
+	display: none;
 }
 #sidebar-left .dropdown-menu {
 	position: initial;
