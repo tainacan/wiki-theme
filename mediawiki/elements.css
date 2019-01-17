@@ -7,6 +7,11 @@
  */
 
 /* Inline Elements */
+p {
+	margin: 0 0 16px;
+	line-height: 1.6em;
+}
+
 img {
 	border: none;
 	vertical-align: middle;
@@ -24,7 +29,7 @@ hr {
 	color:  #dbdbdb;
 	background-color: #dbdbdb;
 	border: 0;
-	margin: .5em 0;
+	margin: 2em 0;
 }
 
 pre, code, tt, kbd, samp, .mw-code {
@@ -77,6 +82,14 @@ blockquote {
 
 table.small {
 	font-size: 100%;
+}
+
+.mw-content-ltr li,
+.mw-content-rtl .mw-content-ltr li,
+.mw-content-ltr dd,
+.mw-content-rtl .mw-content-ltr dd  {
+	line-height: 24px;
+	margin-bottom: 4px;
 }
 
 /* UL LI not so special style */
