@@ -138,41 +138,41 @@ input.form-control:focus {
 
 /* Table of Contents */
 #tweekiTOC .toctitle h2{
-	color: #298596;
+	color: #01295c;
 	font-size: 16px;
 	font-weight: 600;
 }
 #tweekiTOC #toc .nav > li.toclevel-1 > a {
-	color: #298596;
-	font-size: 16px;
-	font-weight: 600;
+	color: #284472;
+	font-size: 15px;
+	font-weight: 400;
 }
 #tweekiTOC #toc .nav > li.toclevel-1 > a:hover {
-	color: #298596;
+	color: #284472;
 	background-color: transparent;
 	cursor: pointer;
 }
 #tweekiTOC #toc .nav > li.toclevel-2 > a {
-	color: #4ea2ad;
+	color: #44638e;
 	font-size: 14px;
 	font-weight: normal;
 }
 #tweekiTOC #toc .nav > li.toclevel-2 > a:hover {
-	color: #4ea2ad;
+	color: #44638e;
 	background-color: transparent;
 	cursor: pointer;
 }
 #tweekiTOC #toc .nav > li.toclevel-3 > a {
-	color: #4ea2ad;
+	color: #44638e;
 	font-weight: normal;
 }
 #tweekiTOC #toc .nav > li.toclevel-3 > a:hover {
-	color: #4ea2ad;
+	color: #44638e;
 	background-color: transparent;
 	cursor: pointer;
 }
 #tweekiTOC #toc li.active > a {
-    border-left: 2px solid #298596 !important;
+    border-left: 2px solid #01295c !important;
 }
 
 /* Edit Button */
@@ -184,7 +184,7 @@ input.form-control:focus {
 #sidebar-left .dropdown-toggle {
 	font-size: 16px;
 	font-weight: 600;
-	color: #01295c;
+	color: #454647;
 }
 #sidebar-left .dropdown-toggle:hover {
 	text-decoration: none;
@@ -201,7 +201,7 @@ input.form-control:focus {
 #sidebar-left .dropdown-menu > li > a {
 	font-size: 14px;
 	font-weight: normal;
-	color: #284472;
+	color: #298596;
 }
 #sidebar-left .dropdown-menu > li > a:hover {
 	background: none !important;
