@@ -12,6 +12,13 @@ img {
 	vertical-align: middle;
 }
 
+@media screen and (max-width: 768px) {
+	img { 
+		height: auto;
+		width: 100%;
+	}
+}
+
 hr {
 	height: 1px;
 	color:  #dbdbdb;

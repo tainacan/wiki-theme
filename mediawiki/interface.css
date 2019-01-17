@@ -184,6 +184,10 @@ input.form-control:focus {
 /* Sidebar left */
 .sidebar-left-wrapper {
 	position: absolute;
+	background: white;
+}
+@media screen and (max-width: 992px) {
+	.sidebar-left-wrapper { position: initial; }
 }
 #sidebar-left .dropdown-toggle {
 	font-size: 16px;
