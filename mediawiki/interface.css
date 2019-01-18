@@ -284,10 +284,14 @@ table.wikitable > * > tr > td {
     text-align: center;
     padding: 0;
 }
+.home-panel .panel-body pre .fa {
+	margin-left: calc(-50% + 24px);
+}
 .home-panel .list-group {
 	border: none;
     background: #f2f2f2;
-    padding: 10px !important;
+	padding: 10px !important;
+	box-shadow: none;
 }
 .home-panel .list-group .list-group-item {
     border: none;
