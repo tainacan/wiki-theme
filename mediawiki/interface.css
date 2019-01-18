@@ -276,6 +276,14 @@ table.wikitable > * > tr > td {
 	color: white;
 	font-size: 30px;
 }
+.home-panel .panel-body pre {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    padding: 0;
+}
 .home-panel .list-group {
 	border: none;
     background: #f2f2f2;
@@ -288,4 +296,8 @@ table.wikitable > * > tr > td {
     font-size: 12px;
     font-weight: 600;
 	padding: 2px 15px;
+}
+.home-panel .list-group .list-group-item::before {
+	content: '';
+	padding-right: 0;
 }
