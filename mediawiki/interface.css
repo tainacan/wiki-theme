@@ -251,7 +251,7 @@ div.table-container {
 table.wikitable {
 	background: white;
 	color: #454647;
-	font-size: 1.25rem;
+	font-size: 1.3rem;
 	margin: 2em auto;
 	border: none;
 	border-collapse: collapse;
@@ -259,8 +259,8 @@ table.wikitable {
 table.wikitable > * > tr > td {
 	border: none;
     padding: 0.8em 1em;
-	border-top: 1px solid #cbcbcb;
-    border-bottom: 1px solid #cbcbcb;
+	border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
 }
 table.wikitable > * > tr > th {
 	border: none;
@@ -268,7 +268,7 @@ table.wikitable > * > tr > th {
 	font-weight: 600;
 	color: #555758;
 	border-top: none;
-	border-bottom: 1px solid #555758;
+	border-bottom: 1px solid #cbcbcb;
 	border-left: none;
 	border-right: none;
 	background: none;
