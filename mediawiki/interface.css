@@ -243,9 +243,15 @@ input.form-control:focus {
 }
 
 /* Tables */
+div.table-container {
+	overflow-x: auto;
+	display: block;
+}
+
 table.wikitable {
 	background: white;
 	color: #454647;
+	font-size: 1.25rem;
 	margin: 2em auto;
 	border: none;
 	border-collapse: collapse;
@@ -255,6 +261,17 @@ table.wikitable > * > tr > td {
     padding: 0.8em 1em;
 	border-top: 1px solid #cbcbcb;
     border-bottom: 1px solid #cbcbcb;
+}
+table.wikitable > * > tr > th {
+	border: none;
+	padding: 0.8em 1em;
+	font-weight: 600;
+	color: #555758;
+	border-top: none;
+	border-bottom: 1px solid #555758;
+	border-left: none;
+	border-right: none;
+	background: none;
 }
 
 /* Home Panel */
@@ -272,7 +289,7 @@ table.wikitable > * > tr > td {
 .home-panel .panel-body {
 	padding: 24px;
 	border: none;
-	background: #76c6cc;
+	background: #4ea2ad;
 	color: white;
 	font-size: 30px;
 }
@@ -285,7 +302,7 @@ table.wikitable > * > tr > td {
     padding: 0;
 }
 .home-panel .panel-body pre .fa {
-	margin-left: calc(-50% + 24px);
+	margin-left: calc(-50% + 14px);
 }
 .home-panel .list-group {
 	border: none;
