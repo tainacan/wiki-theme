@@ -79,6 +79,10 @@ h3 { font-size: 18px; }
 h4 { font-size: 16px; }
 h5 { font-size: 14px; }
 h6 { font-size: 12px; }
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-top: 28px;
+	margin-bottom: 12px;
+}
 .firstHeading {
 	text-align: left;
 	border-bottom: 2px solid #298596;
@@ -189,6 +193,9 @@ input.form-control:focus {
 @media screen and (max-width: 992px) {
 	.sidebar-left-wrapper { position: initial; }
 }
+#sidebar-left {
+	background: white;
+}
 #sidebar-left .dropdown-toggle {
 	font-size: 16px;
 	font-weight: 600;
@@ -276,6 +283,11 @@ table.wikitable > * > tr > th {
 	border-left: none;
 	border-right: none;
 	background: none;
+}
+table.wikitable > caption {
+    font-weight: bold;
+    color: #555758;
+    text-align: center;
 }
 
 /* Home Panel */
