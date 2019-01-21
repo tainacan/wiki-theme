@@ -246,6 +246,10 @@ input.form-control:focus {
 div.table-container {
 	overflow-x: auto;
 	display: block;
+	margin-bottom: 2em;
+}
+div.table-container table.wikitable {
+	margin-bottom: none;
 }
 
 table.wikitable {
