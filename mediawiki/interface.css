@@ -249,7 +249,7 @@ div.table-container {
 	margin-bottom: 2em;
 }
 div.table-container table.wikitable {
-	margin-bottom: none;
+	margin-bottom: 0;;
 }
 
 table.wikitable {
@@ -325,4 +325,19 @@ table.wikitable > * > tr > th {
 .home-panel .list-group .list-group-item::before {
 	content: '';
 	padding-right: 0;
+}
+
+/* Footer */
+#footer.footer {
+	background-color: #454647;
+	color: white;	
+}
+#footer.footer a {
+	color: white;
+}
+#footer.footer a:hover,
+#footer.footer a:focus,
+#footer.footer a:active {
+	color: white;
+	text-decoration: underline;
 }
