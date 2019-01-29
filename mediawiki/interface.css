@@ -308,6 +308,7 @@ table.wikitable > caption {
 	background: #4ea2ad;
 	color: white;
 	font-size: 30px;
+	height: 138px;
 }
 .home-panel .panel-body pre {
     background: none;
