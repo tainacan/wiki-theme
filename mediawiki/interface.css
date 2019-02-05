@@ -200,6 +200,7 @@ input.form-control:focus {
 	font-size: 16px;
 	font-weight: 600;
 	color: #454647;
+	display: block;
 }
 #sidebar-left .dropdown-toggle:hover {
 	text-decoration: none;
@@ -218,6 +219,8 @@ input.form-control:focus {
 	font-size: 14px;
 	font-weight: normal;
 	color: #298596;
+	white-space: normal;
+	line-height: 18px;
 }
 #sidebar-left .dropdown-menu > li > a:hover {
 	background: none !important;
