@@ -17,6 +17,9 @@
 #catlinks {
 	display: block;
 }
+.catlinks-allhidden {
+	display: none !important;
+}
 
 .usermessage {
 	background-color: #ffce7b;
