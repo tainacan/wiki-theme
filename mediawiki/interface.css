@@ -8,11 +8,14 @@
 
 /* Categories */
 .catlinks {
-	border: 1px solid #aaa;
-	background-color: #f9f9f9;
-	padding: 5px;
-	margin-top: 1em;
+	border: 1px solid #cbcbcb;
+	background-color: #f2f2f2;
+	padding: 6px 12px;
+	margin-top: 2rem;
 	clear: both;
+}
+#catlinks {
+	display: block;
 }
 
 .usermessage {
