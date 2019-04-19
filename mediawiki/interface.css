@@ -102,7 +102,8 @@ h1, .h1, h2, .h2, h3, .h3 {
 	border-bottom: 1px solid #cbcbcb;
 }
 .navbar-brand img {
-    height: 30px;
+	height: 30px;
+	width: auto;
     margin-top: -5px;
 }
 
@@ -347,6 +348,9 @@ table.wikitable > caption {
 .home-panel .list-group .list-group-item::before {
 	content: '';
 	padding-right: 0;
+}
+.home-panel .panel-body img {
+	width: auto;
 }
 
 /* Footer */
